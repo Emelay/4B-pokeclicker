@@ -49,29 +49,29 @@ height: 100%;
 }
 
 @media screen and (max-width : 980px ){
-    #.box {
+    .box {
         width: 94%;
     }
-    #.display {
+    .display {
         width: 75%;
     }
-    #.pokeball {
+    .pokeball {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 700px) {
-    #.box1, #.pokemon {
+    .box1, .pokemon {
         width: auto;
         float: none;
 }
-    #.box2 {
+    .box2 {
         height: auto;
     }
 }
 @media screen and (max-width: 480px)
 {    
-    #.audio
+    .audio
     {    
         height: auto;
     }    
@@ -79,7 +79,7 @@ height: 100%;
     {
         font-size: 24px;
     }
-    #.box
+    .box
     {
         float: none;
     }
@@ -93,20 +93,20 @@ and (max-device-width: 568px)
         {
                 font-size: 40px;
         }
-        #.display
+        .display
         {
             height: auto;
         }
-        #.box1
+        .box1
         {
             width:auto;
         }
-        #.pokemon
+        .pokemon
         {
             width: auto;
             clear: both;
         }
-        #.box2, #.display, #.box, #.box2
+        .box2, .display, .box,
         {
             border-radius: 16px;
             border-width: 8px;
